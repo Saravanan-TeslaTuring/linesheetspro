@@ -408,6 +408,52 @@ export default {
             </p>
           </div>
     </div>
+    <div class="bg-statsBackground">
+        <div class="lg:py-16 xs:py-5">        
+            <p class="uppercase text-xs text-textGray text-center">A BETTER WAY</p>
+            <p class="xs:w-[90%] lg:w-[35%] mx-auto text-xl text-header font-extrabold text-center">Ensure the data onboarding process is fast, easy, seamless.</p>
+        </div>
+        <div class="w-9/12 mx-auto grid grid-cols-3 gap-2 py-12">
+            <div class="col-span-1">
+                <p class="text-titleHeader bg-white text-md px-3 py-4 border-b-2 border-purpleFrom">
+                    File Hooks®
+                    <span class="py-3 text-sm text-textGray block">
+                        Listen for new files from your customers and automatically control what happens next.
+                    </span>
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    Data Detection
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    Smatch Matching
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    Smart Fields
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    Data Hooks
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    Relational Data
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    API & WebHooks
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    Non-Code Configuration
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    Guidance
+                </p>
+                 <p class="text-titleHeader text-md px-2 py-4 border-b border-border">
+                    Collaboration
+                </p>
+            </div>
+            <div class="col-span-2 grid content-center justify-items-center">
+                     <img class="text-right" src="./assets/images/hooks.svg" alt="">
+            </div>
+        </div>
+    </div>    
     <div class="lg:pb-12 xs:pb-3">
         <p class="xs:py-8 lg:py-16 col-span-6 text-xl text-header font-extrabold text-center">Plans</p>
         <div class="grid xs:grid-cols-1 lg:grid-cols-5 gap-4 content-center justify-items-center pt-10">
@@ -653,7 +699,6 @@ export default {
                     </div>                
                 <div class="col-span-1 grid content-center">
                      <img class="text-right" src="./assets/images/stars.svg" alt="">
-
                 </div>
             </div>   
             <p class="text-xs pt-3 p-3">
