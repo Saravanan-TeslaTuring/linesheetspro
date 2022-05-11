@@ -4,12 +4,20 @@ module.exports = {
     "./src/**/*.{vue,js}",
   ],
   theme: {
-    screens:{
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px'
-    },    
+    screens: {
+      'xs': '250px',
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... } 
+  
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+  
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+  
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    }, 
     fontFamily:{
       sans : ['poppins']
     },
@@ -41,7 +49,7 @@ module.exports = {
         'custom' : '0 4px 12px #5a68c24d',
       },
       backgroundImage:{
-        'banner': "url('/src/assets/images/banner5.png')",
+        'banner': "url('/src/assets/images/banner3.webp')",
         'bannerdark': "url('/src/assets/images/bg.jpg')",
         'collection': "url('/src/assets/images/collection.svg')",
         'bannerleft': "url('/src/assets/images/1.png')",
