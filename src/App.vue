@@ -102,16 +102,17 @@ export default {
                </div>
            </div>
            <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
-                A No-Design Tool
+               <p class="text-titleHeader xs:text-xl lg:text-[2.5rem] lg:leading-snug font-bold">
+                A <span class="bg-gradient-to-r from-textBackground to-white"> No-Design</span> Tool
                </p>
                <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 Skip the High Fees of Designers & the Long Wait to Get High-Quality Catalogs - Because LineSheets Pro gives you both! Transform sales by making linesheets with lightning speed, on the fly!
                </p>
            </div>
           <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
-                In-built Order Management
+               <p class="text-titleHeader xs:text-xl lg:text-[2.5rem] lg:leading-snug font-bold">
+                In-built Order
+                <span class="bg-gradient-to-r from-white to-textBackground"> Management</span>
                </p>
                <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 By sharing catalogs as unique web pages, sales reps can get prospects to order directly from the catalog page without visiting the eCommerce portal, thus fast-tracking closures.
@@ -128,16 +129,22 @@ export default {
                </div>
           </div>
        <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
-                Faster Turnarounds
+               <p class="text-titleHeader xs:text-xl lg:text-[2.5rem] lg:leading-snug font-bold">
+               <span class="bg-gradient-to-r from-textBackground to-white">
+                   Faster
+                   </span>
+                Turnarounds 
                </p>
                <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 Never leave your prospects waiting for a revised quote with LineSheets Pro. Edits catalogs on the fly in a few clicks and share them quickly to achieve faster closures and improve brand reputation.
                </p>
            </div>
         <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
-                Catalog Sharing - Simplified
+               <p class="text-titleHeader xs:text-xl lg:text-[2.5rem] lg:leading-snug font-bold">
+                Catalog Sharing - 
+                <span class="bg-gradient-to-r from-white to-textBackground">
+                    Simplified
+                    </span> 
                </p>
                <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 LineSheets Pro enables sales reps to share catalogs as PDFs or web pages as soon as they create it without having to visit them on the ground. This helps save time and expedite sales.
@@ -154,16 +161,22 @@ export default {
           </div>
           </div>
      <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
-                Save More, Sell More
+               <p class="text-titleHeader xs:text-xl lg:text-[2.5rem] lg:leading-snug font-bold">
+                Save
+                <span class="bg-gradient-to-r from-white to-textBackground">
+                    More
+                </span>
+                 , Sell More
                </p>
                <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 With sales reps creating catalogs on their own, you can save the budget for graphic designers for other things. And by sharing catalogs directly with prospects, it’s possible to close deals faster and boost revenue.
                </p>
            </div>
         <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
-                Easy Integration
+               <p class="text-titleHeader xs:text-xl lg:text-[2.5rem] lg:leading-snug font-bold">
+                <span class="bg-gradient-to-r from-textBackground to-white">
+                    Easy
+                </span> Integration
                </p>
                <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 LineSheets Pro is tailor-made for any business! Seamlessly integrate the tool with PIM, ERP & eCommerce systems to provide end-to-end visibility of sales and much more!
@@ -214,210 +227,7 @@ export default {
                 </div>      
             </div>               
         </div>
-        <div class="lg:p-12 xs:p-5">
-            <!-- <div class="xs:w-[90%] lg:w-9/12 mx-auto">
-            <p class="xs:text-xl lg:text-5xl text-header font-extrabold text-center">Catalog Management Redefined</p>
-            <p class="lg:pt-6 xs:pt-3 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-textGray text-center">
-                LineSheets Pro features an intuitive UX, powerful design tools, and drag & drop functionalities that reduces the complex process of catalog management into 3 simple steps:
-            </p>
-            <div class="text-center mt-10 hidden lg:block">
-                <img class="w-6/12 mx-auto shadow-2xl" style="margin-bottom: -195px" src="./assets/images/collection.svg" alt="">
-            </div>           
-        </div>       -->
-        </div>
-        <div class="bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo xs:pb-10 lg:pb-24 xs:pt-10 lg:pt-20">
-            <div class="w-9/12 mx-auto">
-                        <p class="xs:text-xl lg:text-3xl text-white font-extrabold text-center">Catalog Management Redefined</p>
-                         <p class="lg:pt-3 xs:pt-3 pb-16 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-white text-center">
-                LineSheets Pro features an intuitive UX, powerful design tools, and drag & drop functionalities that reduces the complex process of catalog management into 3 simple steps:
-            </p>
-                <div class="grid grid-cols-3 text-center gap-4">
-                    <div class="xs:col-span-3 lg:col-span-1">
-                        <span class="text-6xl text-white material-symbols-outlined">
-                            widgets
-                        </span>
-                        <p class="pt-5 text-white text-2xl">Choose</p>
-                        <p class="pt-5 text-md text-white">
-                            Choose a design template
-                        </p>
-                    </div>
-                    <div class="xs:col-span-3 lg:col-span-1">
-                        <span class="text-6xl text-white material-symbols-outlined">
-                            drag_indicator
-                            </span>
-                            <p class="pt-5 text-white text-2xl">Design</p>
-                            <p class="pt-5 text-md text-white">
-                                Drag & drop your products
-                            </p>
-                    </div>
-                    <div class="xs:col-span-3 lg:col-span-1">
-                        <span class="text-6xl text-white material-symbols-outlined">
-                            share
-                            </span>
-                            <p class="pt-5 text-white text-2xl">Share</p>
-                            <p class="pt-5 text-md text-white">
-                                Share with prospects
-                            </p>
-                    </div>
-                    <div class="col-span-3">
-                        <button class="bg-white rounded hover:bg-purpleFrom font-bold text-purpleFrom
-                         hover:text-white border border-white hover:border-white text-xl mt-20 uppercase py-3 px-10 mr-3">
-                            Try For Free
-                        </button>
-                    </div>
-                </div>
-            </div>
-    </div>
-            <p class="pt-16 pb-16 xs:grid-cols-2 lg:col-span-6 text-xl text-header font-extrabold text-center">Shortcodes & Components</p>
-
-    <div class="xs:pb-4 lg:pb-12 grid xs:grid-cols-2 lg:grid-cols-6 content-center">
-          <div class="text-center border border-border
-          cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-            </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-           <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-           <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-          <div class="text-center border border-border transition cursor-pointer grid content-center">
-            <span class="text-purple material-symbols-outlined">
-                extension
-                </span>
-            <p class="text-md font-bold">
-                Animations
-            </p>
-          </div>
-    </div>
-    <div class="bg-statsBackground">
+       <div class="bg-statsBackground">
         <div class="lg:py-16 xs:py-5">        
             <p class="uppercase text-xs text-textGray text-center">A BETTER WAY</p>
             <p class="xs:w-[90%] lg:w-[35%] mx-auto text-xl text-header font-extrabold text-center">Power-packed Features for a Hassle-free Experience</p>
@@ -462,24 +272,68 @@ export default {
                      <img class="text-right" src="./assets/images/analytics.webp" alt="">
             </div>
         </div>
-    </div>    
+    </div> 
+        <div class="bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo xs:pb-10 lg:pb-24 xs:pt-10 lg:pt-20">
+            <div class="w-9/12 mx-auto">
+                        <p class="xs:text-xl lg:text-3xl text-white font-extrabold text-center">Catalog Management Redefined</p>
+                         <p class="lg:pt-3 xs:pt-3 pb-16 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-white text-center">
+                LineSheets Pro features an intuitive UX, powerful design tools, and drag & drop functionalities that reduces the complex process of catalog management into 3 simple steps:
+            </p>
+                <div class="grid grid-cols-3 text-center gap-4">
+                    <div class="xs:col-span-3 lg:col-span-1">
+                        <span class="text-6xl text-white material-symbols-outlined">
+                            widgets
+                        </span>
+                        <p class="pt-5 text-white text-2xl">Choose</p>
+                        <p class="pt-5 text-md text-white">
+                            Choose a design template
+                        </p>
+                    </div>
+                    <div class="xs:col-span-3 lg:col-span-1">
+                        <span class="text-6xl text-white material-symbols-outlined">
+                            drag_indicator
+                            </span>
+                            <p class="pt-5 text-white text-2xl">Design</p>
+                            <p class="pt-5 text-md text-white">
+                                Drag & drop your products
+                            </p>
+                    </div>
+                    <div class="xs:col-span-3 lg:col-span-1">
+                        <span class="text-6xl text-white material-symbols-outlined">
+                            share
+                            </span>
+                            <p class="pt-5 text-white text-2xl">Share</p>
+                            <p class="pt-5 text-md text-white">
+                                Share with prospects
+                            </p>
+                    </div>
+                    <div class="col-span-3">
+                        <button class="bg-white rounded hover:bg-purpleFrom font-bold text-purpleFrom
+                         hover:text-white border border-white hover:border-white text-xl mt-20 uppercase py-3 px-10 mr-3">
+                            Try For Free
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+      
     <div class="lg:pb-12 xs:pb-3">
         <p class="xs:pt-8 lg:pt-16 col-span-6 text-xl text-header font-extrabold text-center">Costs Less than your Quarterly Coffee Subscription</p>
         <p class="xs:pb-8 lg:pb-16 pt-2 pb-8 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-textGray text-center">
                         LineSheets Pro is super affordable with unique pricing packages to meet diverse business needs. Check them out below or simply ask for a
                          <a href="#" class="text-purple hover:underline-offset-1"> Custom Quote</a>
                      </p>
-        <div class="grid xs:grid-cols-1 lg:grid-cols-5 gap-4 content-center justify-items-center pt-10">
-            <div class="h-[26rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-3 xs:mx-10 p-7">
-                <p class="text-md text-textGray">Free</p>
+        <div class="xs:w-[90%] lg:w-9/12 mx-auto grid xs:grid-cols-1 lg:grid-cols-3 gap-2 content-center justify-center justify-items-center pt-10">
+             <div class="h-[28rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
+                <p class="text-md text-textGray">Basic</p>
                 <p class="pt-3">
                     <span class="text-4xl text-header font-bold">
-                        $0
+                        $29
                     </span>
                     <span class="text-sm text-light">/Month</span>
                 </p>
                 <p class="text-textGray text-md pt-5">
-                    Best for kiddies
+                    Ideal for Small Businessess
                 </p>
                 <p class="text-textGray text-sm pt-5">
                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
@@ -491,7 +345,7 @@ export default {
                      <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             notes
                             </span>
-                  10 SKU's
+                  1,000 SKU's
                 </p>
                 <p class="text-textGray text-sm pt-4">
                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
@@ -503,7 +357,7 @@ export default {
                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             brush
                             </span>
-                  2 LineSheets
+                  Unlimited LineSheets
                 </p>
                 <div class="text-left">                
                     <button class="bg-purple w-full hover:bg-white font-bold text-white hover:text-purple border border-purple hover:border-purple py-2 px-3 my-4">
@@ -511,81 +365,40 @@ export default {
                     </button>
                 </div>
             </div>
-            <div class="h-[26rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
-                <p class="text-md text-textGray">Free</p>
-                <p class="pt-3">
-                    <span class="text-4xl text-header font-bold">
-                        $26
-                    </span>
-                    <span class="text-sm text-light">/Month</span>
-                </p>
-                <p class="text-textGray text-md pt-5">
-                    Best for kiddies
-                </p>
-                <p class="text-textGray text-sm pt-5">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
-                            person
-                            </span>
-                  1 User
-                </p>
-                <p class="text-textGray text-sm pt-4">
-                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
-                            notes
-                            </span>
-                  10 SKU's
-                </p>
-                <p class="text-textGray text-sm pt-4">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
-                            draw
-                            </span>
-                  5 Templates
-                </p>
-                <p class="text-textGray text-sm pt-4">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
-                            brush
-                            </span>
-                  2 LineSheets
-                </p>
-                <div class="text-left">                
-                    <button class="bg-purple w-full hover:bg-white font-bold text-white hover:text-purple border border-purple hover:border-purple py-2 px-3 my-4">
-                                Get This Package
-                    </button>
-                </div>
-            </div>
-            <div class="h-[26rem] w-[15rem] xs:w-[90%] bg-purple xs:mt-5 rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7" style="margin-top: -20px">
-                <p class="text-md text-white">Free</p>
+            <div class="h-[28rem] w-[15rem] xs:w-[90%] bg-purple xs:mt-5 rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7" style="margin-top: -20px">
+                <p class="text-md text-white">Pro</p>
                 <p class="pt-3">
                     <span class="text-4xl text-white font-bold">
-                        $26
+                        $89
                     </span>
                     <span class="text-sm text-white font-light">/Month</span>
                 </p>
                 <p class="text-white text-md pt-5">
-                    Best for kiddies
+                    Ideal for expanding businesses
                 </p>
                 <p class="text-white text-sm pt-5">
                     <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
                             person
                             </span>
-                  1 User
+                  5 Users
                 </p>
                 <p class="text-white text-sm pt-4">
                      <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
                             notes
                             </span>
-                  10 SKU's
+                  10,000 SKU's
                 </p>
                 <p class="text-white text-sm pt-4">
                     <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
                             draw
                             </span>
-                  5 Templates
+                  Unlimited Templates
                 </p>
                 <p class="text-white text-sm pt-4">
                     <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
                             brush
                             </span>
-                  2 LineSheets
+                  Unlimited LineSheets
                 </p>
                 <div class="text-left">                
                     <button class="bg-white hover:bg-purple font-bold text-purple 
@@ -594,40 +407,40 @@ export default {
                     </button>
                 </div>
             </div>
-            <div class="h-[26rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
-                <p class="text-md text-textGray">Free</p>
+            <div class="h-[28rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
+                <p class="text-md text-textGray">Business</p>
                 <p class="pt-3">
                     <span class="text-4xl text-header font-bold">
-                        $26
+                        $149
                     </span>
                     <span class="text-sm text-light">/Month</span>
                 </p>
                 <p class="text-textGray text-md pt-5">
-                    Best for kiddies
+                    Ideal for established businesses
                 </p>
                 <p class="text-textGray text-sm pt-5">
                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             person
                             </span>
-                  1 User
+                  10 Users
                 </p>
                 <p class="text-textGray text-sm pt-4">
                      <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             notes
                             </span>
-                  10 SKU's
+                  25,000 SKU's
                 </p>
                 <p class="text-textGray text-sm pt-4">
                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             draw
                             </span>
-                  5 Templates
+                  Unlimited Templates
                 </p>
                 <p class="text-textGray text-sm pt-4">
                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             brush
                             </span>
-                  2 LineSheets
+                  Unlimited LineSheets
                 </p>
                 <div class="text-left">                
                     <button class="bg-purple w-full hover:bg-white font-bold text-white hover:text-purple border border-purple hover:border-purple py-2 px-3 my-4">
@@ -635,48 +448,7 @@ export default {
                     </button>
                 </div>
             </div>
-            <div class="h-[26rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
-                <p class="text-md text-textGray">Free</p>
-                <p class="pt-3">
-                    <span class="text-4xl text-header font-bold">
-                        $26
-                    </span>
-                    <span class="text-sm text-light">/Month</span>
-                </p>
-                <p class="text-textGray text-md pt-5">
-                    Best for kiddies
-                </p>
-                <p class="text-textGray text-sm pt-5">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
-                            person
-                            </span>
-                  1 User
-                </p>
-                <p class="text-textGray text-sm pt-4">
-                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
-                            notes
-                            </span>
-                  10 SKU's
-                </p>
-                <p class="text-textGray text-sm pt-4">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
-                            draw
-                            </span>
-                  5 Templates
-                </p>
-                <p class="text-textGray text-sm pt-4">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
-                            brush
-                            </span>
-                  2 LineSheets
-                </p>
-                <div class="text-left">                
-                    <button class="bg-purple w-full hover:bg-white font-bold text-white hover:text-purple border border-purple hover:border-purple py-2 px-3 my-4">
-                                Get This Package
-                    </button>
-                </div>
-            </div>
-        </div>
+           </div>
     </div>
     <div class="xs:w-[90%] lg:w-9/12 mx-auto">
         <p class="pt-10 col-span-6  xs:text-xl lg:text-3xl text-header font-extrabold text-center">Loved by Sales Folks from all Walks of Business</p>
@@ -736,29 +508,10 @@ export default {
             </p>                   
             </div>                         
             <div class="col-span-1 hidden lg:block">
-
             </div>
-        </div>
-        
+        </div>        
     </div>
-    <div class="bg-statsBackground lg:py-24 xs:py-10">
-         <div class="w-9/12 mx-auto">
-             <div class="grid grid-cols-4 gap-2 text-center">               
-                 <div class="col-span-4 text-center">
-                     <p class="lg:text-3xl xs:text-xl text-header font-black">
-                         Loved by 
-                         <span class="text-purple"> 65000+</span>
-                         Happy Customers
-                     </p>
-                     <p class="text-textGray lg:text-lg xs:text-sm pt-2">
-                         Powered by Top-Notch Support & Stellar 
-                         <a href="#" class="text-purple hover:underline-offset-1"> Customer Reviews</a>
-                     </p>
-                 </div>
-             </div>      
-         </div>              
-     </div>
-     <div class="bg-bannerdark h-[65%] grid content-center">
+     <div class="bg-bannerdark bg-cover h-[65%] grid content-center">
         <div class="lg:w-9/12 xs:w-[90%] mx-auto text-center">
              <p class="text-white font-bold lg:text-4xl xs:text-xl">
                 Never Struggle with Catalogs Again
