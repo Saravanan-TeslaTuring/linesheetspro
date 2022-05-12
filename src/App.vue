@@ -67,20 +67,21 @@ export default {
     <div class="bg-gray lg:h-[40%] xs:h-auto xs:px-[20px] xs:py-[30px] lg:py-[40px]">
         <div class="text-center mx-auto justify-center grid content-center">
           <div class="xl:text-4xl md:text-2xl mt-7 font-light text-textGray">
-            Create Powerful Websites <span class="italic text-purple"> Beautifully.</span>
+            Never Struggle with Catalogs Again
           </div>
           <div>
             <div class="pt-8 xl:text-7xl xs:text-2xl animate inline-block font-bold text-[#333]">
-                Imagine ..Create ..Sell
+                Design ..Create ..Share
             </div>
+            <p class="text-sm text-textGray pt-2">All in a few clicks!</p>
             <div class="pt-8 text-md sm:w-auto lg:w-[600px] sm:px-4 lg:px-0 mx-auto text-textGray">
-                The <b> Best Selling</b> Multi-Purpose & Powerful Bootstrap 5.x Template with 1200+ Niche, Multi-Page & One-Page Layouts and 1500+ UI Features.              
+                Linesheets Pro is an easy-to-use automatic catalog maker for sales reps to create catalogs and line sheets on the fly, share with prospects and start collecting orders. All without depending on a designer.
            </div>
              <button class="bg-[#3773ff] rounded text-white text-md xs:text-xs mt-8 py-2 px-8 mr-3">
-                    View Demo
+                    Try For Free
                 </button>
                 <button class="bg-[#3773ff] rounded text-white text-md xs:text-xs mt-8 py-2 px-8">
-                    Watch Video
+                    View Video
                 </button>
            <p class="text-textGray font-light text-xs mt-6 text-center">
                <span class="lg:pr-5 xs:pr-0 lg:inline-block xs:block">Lifetime Free Updates</span>
@@ -94,81 +95,82 @@ export default {
     <div class="xs:w-[90%] lg:w-9/12 mx-auto">
         <div class="xs:my-[3rem] lg:my-[5rem] xs:w-full lg:w-1/2 mx-auto text-center">
             <p class="xs:text-xl lg:text-4xl font-black text-header">
-                What 
-                <span class="text-purple"> You </span>
-                Get?
+                Just 
+                <span class="text-purple"> Drag & Drop! </span>
             </p>
-            <p class="mt-[1rem] text-textGray xs:text-sm">Best-Selling & Most Trusted HTML5 Template.
-            </p>
-            <p class="text-textGray xs:text-sm">Experience the Ever-Growing Feature Rich Template since 2014.
+            <!-- <p class="mt-[1rem] text-textGray xs:text-sm">
+                Just <strong> Drag & Drop!</strong>
+            </p> -->
+            <p class="text-textGray xs:text-sm mt-[1rem]">
+                Design, share and sell catalogs in a few clicks without a professional designer. Creating Catalogs to Driving Sales - Get all in One Place with LineSheets Pro.
             </p>
         </div>
         <div class="grid grid-cols-3">
-           <div class="xs:col-span-0 lg:col-span-2 grid xs:content-start lg:content-center hidden lg:block">
-               <img src="./assets/images/home.svg" alt="">
+           <div class="h-screen xs:col-span-0 lg:col-span-2 grid xs:content-start lg:content-center hidden lg:block">
+               <img src="./assets/images/grid/nodesigner.webp" alt="">
            </div>
-           <div class="xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
+           <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
                <p class="text-titleHeader xs:text-xl lg:text-3xl">
-                Manually formatting data is a pain
+                A No Design Tool
                </p>
                <p class="pt-3 xs:text-sm lg:text-md text-textGray">
-                Importing data into CSV templates, building custom import scripts, or running lengthy implementation projects are not actually solving the root of your data onboarding problem.
+                Skip the High Fees of Designers & the Long Wait to Get High-Quality Catalogs - Because LineSheets Pro gives you both! Transform sales by making linesheets with lightning speed, on the fly!
                </p>
            </div>
-          <div class="xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
+          <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
                <p class="text-titleHeader xs:text-xl lg:text-3xl">
-                Manually formatting data is a pain
+                In-built Order Management
                </p>
                <p class="pt-3 xs:text-sm lg:text-md text-textGray">
-                Importing data into CSV templates, building custom import scripts, or running lengthy implementation projects are not actually solving the root of your data onboarding problem.
+                By sharing catalogs as unique web pages, sales reps can get prospects to order directly from the catalog page without visiting the eCommerce portal, thus fast-tracking closures.
                </p>
            </div>
-          <div class="col-span-2 hidden lg:block">
-               <img src="./assets/images/second.svg"  alt="">
+          <div class="h-screen col-span-2 hidden lg:block text-center">
+               <img src="./assets/images/grid/order.png"  alt="">
           </div>
-          <div class="col-span-2 grid content-center hidden lg:block">
-            <img src="./assets/images/home.svg" alt="">
+          <div class="h-screen col-span-2 grid content-center hidden lg:block">
+               <img src="./assets/images/grid/turnaround.webp" alt="">
           </div>
-       <div class="xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
+       <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
                <p class="text-titleHeader xs:text-xl lg:text-3xl">
-                Manually formatting data is a pain
+                Faster Turnarounds
                </p>
                <p class="pt-3 xs:text-sm lg:text-md text-textGray">
-                Importing data into CSV templates, building custom import scripts, or running lengthy implementation projects are not actually solving the root of your data onboarding problem.
+                Never leave your prospects waiting for a revised quote with LineSheets Pro. Edits catalogs on the fly in a few clicks and share them quickly to achieve faster closures and improve brand reputation.
                </p>
            </div>
-        <div class="xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
+        <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
                <p class="text-titleHeader xs:text-xl lg:text-3xl">
-                Manually formatting data is a pain
+                Catalog Sharing - Simplified
                </p>
                <p class="pt-3 xs:text-sm lg:text-md text-textGray">
-                Importing data into CSV templates, building custom import scripts, or running lengthy implementation projects are not actually solving the root of your data onboarding problem.
+                LineSheets Pro enables sales reps to share catalogs as PDFs or web pages as soon as they create it without having to visit them on the ground. This helps save time and expedite sales.
                </p>
            </div>
-          <div class="col-span-2 hidden lg:block">
-               <img src="./assets/images/second.svg" alt="">
+          <div class="h-screen col-span-2 hidden lg:block">
+               <img src="./assets/images/grid/share.webp" alt="">
           </div>
-          <div class="col-span-2 grid content-center hidden lg:block">
-            <img src="./assets/images/home.svg" alt="">
+          <div class="h-screen col-span-2 grid content-center hidden lg:block">
+               <img src="./assets/images/grid/savemore.webp" alt="">
           </div>
-     <div class="xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
+     <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
                <p class="text-titleHeader xs:text-xl lg:text-3xl">
-                Manually formatting data is a pain
+                Save More, Sell More
                </p>
                <p class="pt-3 xs:text-sm lg:text-md text-textGray">
-                Importing data into CSV templates, building custom import scripts, or running lengthy implementation projects are not actually solving the root of your data onboarding problem.
+                With sales reps creating catalogs on their own, you can save the budget for graphic designers for other things. And by sharing catalogs directly with prospects, it’s possible to close deals faster and boost revenue.
                </p>
            </div>
-        <div class="xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
+        <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
                <p class="text-titleHeader xs:text-xl lg:text-3xl">
-                Manually formatting data is a pain
+                Easy Integration
                </p>
                <p class="pt-3 xs:text-sm lg:text-md text-textGray">
-                Importing data into CSV templates, building custom import scripts, or running lengthy implementation projects are not actually solving the root of your data onboarding problem.
+                LineSheets Pro easily integrates with PIM, ERP & eCommerce systems to provide end-to-end visibility of sales.
                </p>
            </div>
-          <div class="col-span-2 hidden lg:block">
-               <img src="./assets/images/second.svg" alt="">
+          <div class="h-screen col-span-2 hidden lg:block">
+               <img src="./assets/images/grid/integration.png" alt="">
           </div>
         </div>
     </div>
@@ -212,9 +214,9 @@ export default {
         </div>
         <div class="lg:p-12 xs:p-5">
             <div class="xs:w-[90%] lg:w-9/12 mx-auto">
-            <p class="xs:text-xl lg:text-5xl text-header font-extrabold text-center">Blocks</p>
+            <p class="xs:text-xl lg:text-5xl text-header font-extrabold text-center">Catalog Management Redefined</p>
             <p class="lg:pt-6 xs:pt-3 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-textGray text-center">
-                Get Started with Canvas quickly using the premade Section Blocks. Just Copy, Paste and Assemble.
+                LineSheets Pro features an intuitive UX, powerful design tools, and drag & drop functionalities that reduces the complex process of catalog management into 3 simple steps:
             </p>
             <div class="text-center mt-10 hidden lg:block">
                 <img class="w-6/12 mx-auto shadow-2xl" style="margin-bottom: -195px" src="./assets/images/collection.svg" alt="">
@@ -230,7 +232,7 @@ export default {
                         </span>
                         <p class="pt-5 text-white text-2xl">Many Option</p>
                         <p class="pt-5 text-md text-white">
-                            Includes 156 Pre-built Blocks across categories.
+                            Choose a design template
                         </p>
                     </div>
                     <div class="xs:col-span-3 lg:col-span-1">
@@ -239,7 +241,7 @@ export default {
                             </span>
                             <p class="pt-5 text-white text-2xl">Easy Setup</p>
                             <p class="pt-5 text-md text-white">
-                                Includes 156 Pre-built Blocks across categories.
+                                Drag & drop your products
                             </p>
                     </div>
                     <div class="xs:col-span-3 lg:col-span-1">
@@ -248,12 +250,12 @@ export default {
                             </span>
                             <p class="pt-5 text-white text-2xl">Customizable</p>
                             <p class="pt-5 text-md text-white">
-                                Includes 156 Pre-built Blocks across categories.
+                                Share with prospects
                             </p>
                     </div>
                     <div class="col-span-3">
                         <button class="bg-white rounded hover:bg-purpleFrom font-bold text-purpleFrom hover:text-white border border-white hover:border-white mt-10 py-3 px-4 mr-3">
-                            View Demo
+                            Try For Free
                         </button>
                     </div>
                 </div>
@@ -411,7 +413,7 @@ export default {
     <div class="bg-statsBackground">
         <div class="lg:py-16 xs:py-5">        
             <p class="uppercase text-xs text-textGray text-center">A BETTER WAY</p>
-            <p class="xs:w-[90%] lg:w-[35%] mx-auto text-xl text-header font-extrabold text-center">Ensure the data onboarding process is fast, easy, seamless.</p>
+            <p class="xs:w-[90%] lg:w-[35%] mx-auto text-xl text-header font-extrabold text-center">Power-packed Features for a Hassle-free Experience</p>
         </div>
         <div class="w-9/12 mx-auto grid grid-cols-3 gap-2 py-12">
             <div class="col-span-1">
@@ -455,7 +457,11 @@ export default {
         </div>
     </div>    
     <div class="lg:pb-12 xs:pb-3">
-        <p class="xs:py-8 lg:py-16 col-span-6 text-xl text-header font-extrabold text-center">Plans</p>
+        <p class="xs:pt-8 lg:pt-16 col-span-6 text-xl text-header font-extrabold text-center">Costs Less than your Quarterly Coffee Subscription</p>
+        <p class="xs:pb-8 lg:pb-16 pt-2 pb-8 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-textGray text-center">
+                        LineSheets Pro is super affordable with unique pricing packages to meet diverse business needs. Check them out below or simply ask for a
+                         <a href="#" class="text-purple hover:underline-offset-1"> Custom Quote</a>
+                     </p>
         <div class="grid xs:grid-cols-1 lg:grid-cols-5 gap-4 content-center justify-items-center pt-10">
             <div class="h-[26rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-3 xs:mx-10 p-7">
                 <p class="text-md text-textGray">Free</p>
@@ -666,22 +672,25 @@ export default {
         </div>
     </div>
     <div class="xs:w-[90%] lg:w-9/12 mx-auto">
-        <p class="pt-10 pb-8 col-span-6  xs:text-xl lg:text-3xl text-header font-extrabold text-center">Customer Reviews</p>
+        <p class="pt-10 col-span-6  xs:text-xl lg:text-3xl text-header font-extrabold text-center">Loved by Sales Folks from all Walks of Business</p>
+         <p class="pb-8 xs:pt-3 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-textGray text-center">
+                Check out what our users have to say about LineSheets Pro.
+            </p>
         <!-- <img src="./assets/images/testimonial.svg" alt=""> -->
         <div class="grid grid-rows-3 grid-cols-3 gap-7 pb-16">
             <div class="shadow-md p-7 border-border lg:col-span-2 xs:col-span-3">
              <div class="grid grid-cols-3 content-center border-b border-border p-3">
                 <div class="col-span-2">
-                    <p class="text-textGray text-xs pt-2">Saravnan</p>
-                    <p class="pt-1 text-xs text-blue-700">Software Developer at SellersCommerce</p>
+                    <p class="text-textGray text-xs pt-2">Robin Williams</p>
+                    <p class="pt-1 text-xs text-blue-700">VP Sales</p>
                     </div>                
                 <div class="col-span-1 grid content-center">
                      <img class="text-right" src="./assets/images/stars.svg" alt="">
-
                 </div>
             </div>   
             <p class="text-xs pt-3 p-3">
-                 "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting."
+                 “An amazing tool, I just build digital line sheets in seconds and share it with all prospets. 
+                 Extremely easy to use and share! Would recommend it as the go to tool for any sales rep!”
             </p>                 
             </div>                         
             <div class="col-span-1 hidden lg:block">
@@ -692,25 +701,23 @@ export default {
             </div>
             <div class="shadow-md p-7 border-border lg:col-span-2 xs:col-span-3">
             <div class="grid grid-cols-3 content-center border-b border-border p-3">
-                <!-- June 01, 2022 | Abraham -->
                 <div class="col-span-2">
-                    <p class="text-textGray text-xs pt-2">Saravnan</p>
-                    <p class="pt-1 text-xs text-blue-700">Software Developer at SellersCommerce</p>
+                    <p class="text-textGray text-xs pt-2">Dan Williams</p>
+                    <p class="pt-1 text-xs text-blue-700">Director, Growth & Strategy</p>
                     </div>                
                 <div class="col-span-1 grid content-center">
                      <img class="text-right" src="./assets/images/stars.svg" alt="">
                 </div>
             </div>   
             <p class="text-xs pt-3 p-3">
-                 "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting."
+                 “LineSheets Pro has definitely helped us improve our closure rates. The sales team is quick to make pricing and product edits in the line sheets without relying on designers and send to prospects to start ordering. I totally recommend it!”
             </p>                     
             </div>                         
             <div class="shadow-md p-7 border-border lg:col-span-2 xs:col-span-3">
           <div class="grid grid-cols-3 content-center border-b border-border p-3">
-                <!-- June 01, 2022 | Abraham -->
                 <div class="col-span-2">
-                    <p class="text-textGray text-xs pt-2">Saravnan</p>
-                    <p class="pt-1 text-xs text-blue-700">Software Developer at SellersCommerce</p>
+                    <p class="text-textGray text-xs pt-2">Kevin Morgan</p>
+                    <p class="pt-1 text-xs text-blue-700">CMO</p>
                     </div>                
                 <div class="col-span-1 grid content-center">
                      <img class="text-right" src="./assets/images/stars.svg" alt="">
@@ -718,7 +725,7 @@ export default {
                 </div>
             </div>   
             <p class="text-xs pt-3 p-3">
-                 "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting."
+                 “LineSheets Pro reduced our dependency with designers and enabled us to accelerate our field visits. Edit option of the product data is a super useful feature for our team. ”
             </p>                   
             </div>                         
             <div class="col-span-1 hidden lg:block">
@@ -728,7 +735,7 @@ export default {
         
     </div>
     <div class="bg-statsBackground lg:py-24 xs:py-10">
-        <div class="w-9/12 mx-auto">
+         <div class="w-9/12 mx-auto">
              <div class="grid grid-cols-4 gap-2 text-center">               
                  <div class="col-span-4 text-center">
                      <p class="lg:text-3xl xs:text-xl text-header font-black">
@@ -742,15 +749,15 @@ export default {
                      </p>
                  </div>
              </div>      
-         </div>               
+         </div>              
      </div>
      <div class="bg-bannerdark h-[65%] grid content-center">
         <div class="lg:w-9/12 xs:w-[90%] mx-auto text-center">
              <p class="text-white font-bold lg:text-4xl xs:text-xl">
-                Start Creating Beautiful Websites
+                Never Struggle with Catalogs Again
              </p>
-             <p class="lg:pt-4 xs:pt-1 text-white font-bold lg:text-4xl xs:text-xl">
-                Purchase <span class="text-purple">LineSheets</span> for $16 only!
+             <p class="lg:pt-4 xs:pt-1 text-white font-bold lg:text-2xl xs:text-xl">
+                Create. Share. Sell. All on the fly. Without any designers.
              </p>
              <button class="bg-white rounded hover:bg-purple text-black hover:text-white border-white hover:border-purple 
              lg:mt-14 xs:mt-6 py-3 px-4 mr-3">
@@ -763,12 +770,7 @@ export default {
         <p class="text-titleHeader text-left xs:text-xs lg:text-sm">SellersCommerce © 2022</p>
         <p class="text-titleHeader text-right xs:text-xs lg:text-sm">            
             <a href="">Have a query?</a>
-        </p>
-        <!-- <p class="text-titleHeader">
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </p> -->
+        </p>        
         </div>
     </div>
 </div>
