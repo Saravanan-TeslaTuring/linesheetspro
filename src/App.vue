@@ -64,156 +64,158 @@ export default {
     </div>
   </div>
 </nav>
-    <div class="bg-gray lg:h-[40%] xs:h-auto xs:px-[20px] xs:py-[30px] lg:py-[40px]">
+    <div class="bg-gray lg:h-[35%] xs:h-auto xs:px-[20px] xs:py-[30px] lg:py-[40px]">
         <div class="text-center mx-auto justify-center grid content-center">
-          <div class="xl:text-4xl md:text-2xl mt-7 font-light text-textGray">
-            Never Struggle with Catalogs Again
+          <div class="xl:text-2xl md:text-2xl mt-7 font-light text-textGray">
+            Never Struggle with
+            <span class="text-purple font-bold"> LineSheets </span> Again
           </div>
           <div>
             <div class="pt-8 xl:text-7xl xs:text-2xl animate inline-block font-bold text-[#333]">
-                Design ..Create ..Share
+                Design ..Share ..Sell
             </div>
-            <p class="text-sm text-textGray pt-2">All in a few clicks!</p>
+            <p class="text-sm text-textGray xs:pt-2 lg:pt-5">Beautiful LineSheets in a Few Clicks!</p>
             <div class="pt-8 text-md sm:w-auto lg:w-[600px] sm:px-4 lg:px-0 mx-auto text-textGray">
-                Linesheets Pro is an easy-to-use automatic catalog maker for sales reps to create catalogs and line sheets on the fly, share with prospects and start collecting orders. All without depending on a designer.
+               <strong> LineSheets Pro  </strong> is an easy-to-use automatic catalog maker for sales reps to create catalogs on the fly, without depending on a designer.
            </div>
              <button class="bg-[#3773ff] rounded text-white text-md xs:text-xs mt-8 py-2 px-8 mr-3">
                     Try For Free
                 </button>
-                <button class="bg-[#3773ff] rounded text-white text-md xs:text-xs mt-8 py-2 px-8">
-                    View Video
-                </button>
-           <p class="text-textGray font-light text-xs mt-6 text-center">
-               <span class="lg:pr-5 xs:pr-0 lg:inline-block xs:block">Lifetime Free Updates</span>
-               <span class="lg:pr-5 xs:pr-0 lg:inline-block xs:block xs:pt-2">Walkthrough Videos</span>
-               <span class="xs:block lg:inline-block xs:pt-2">PSD Files Included</span>
-           </p>
           </div>
         </div>
     </div>
-    <div class="p-3 bg-gray h-[65%] bg-banner hidden lg:block align-bottom bg-contain bg-no-repeat subpixel-antialiased"></div>
+    <div class="p-3 bg-gray h-[56%] bg-banner hidden lg:block align-bottom bg-contain bg-no-repeat subpixel-antialiased"></div>
     <div class="xs:w-[90%] lg:w-9/12 mx-auto">
         <div class="xs:my-[3rem] lg:my-[5rem] xs:w-full lg:w-1/2 mx-auto text-center">
             <p class="xs:text-xl lg:text-4xl font-black text-header">
                 Just 
                 <span class="text-purple"> Drag & Drop! </span>
             </p>
-            <!-- <p class="mt-[1rem] text-textGray xs:text-sm">
-                Just <strong> Drag & Drop!</strong>
-            </p> -->
             <p class="text-textGray xs:text-sm mt-[1rem]">
                 Design, share and sell catalogs in a few clicks without a professional designer. Creating Catalogs to Driving Sales - Get all in One Place with LineSheets Pro.
             </p>
         </div>
         <div class="grid grid-cols-3">
-           <div class="h-screen xs:col-span-0 lg:col-span-2 grid xs:content-start lg:content-center hidden lg:block">
-               <img src="./assets/images/grid/nodesigner.webp" alt="">
+           <div class="xs:h-auto lg:h-screen xs:col-span-0 lg:col-span-2 hidden lg:block">
+               <div class="h-full grid content-center">
+               <img src="./assets/images/grid/nodesigner.webp" class="align-middle" alt="">
+               </div>
            </div>
-           <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
-               <p class="text-titleHeader xs:text-xl lg:text-3xl">
-                A No Design Tool
+           <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
+                A No-Design Tool
                </p>
-               <p class="pt-3 xs:text-sm lg:text-md text-textGray">
+               <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 Skip the High Fees of Designers & the Long Wait to Get High-Quality Catalogs - Because LineSheets Pro gives you both! Transform sales by making linesheets with lightning speed, on the fly!
                </p>
            </div>
-          <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
-               <p class="text-titleHeader xs:text-xl lg:text-3xl">
+          <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
                 In-built Order Management
                </p>
-               <p class="pt-3 xs:text-sm lg:text-md text-textGray">
+               <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 By sharing catalogs as unique web pages, sales reps can get prospects to order directly from the catalog page without visiting the eCommerce portal, thus fast-tracking closures.
                </p>
            </div>
-          <div class="h-screen col-span-2 hidden lg:block text-center">
+          <div class="xs:h-auto lg:h-screen col-span-2 hidden lg:block text-center">
+                             <div class="h-full grid content-center justify-items-end">
                <img src="./assets/images/grid/order.png"  alt="">
+                             </div>
           </div>
-          <div class="h-screen col-span-2 grid content-center hidden lg:block">
+          <div class="xs:h-auto lg:h-screen col-span-2 hidden lg:block">
+                             <div class="h-full grid content-center justify-items-start">
                <img src="./assets/images/grid/turnaround.webp" alt="">
+               </div>
           </div>
-       <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
-               <p class="text-titleHeader xs:text-xl lg:text-3xl">
+       <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
                 Faster Turnarounds
                </p>
-               <p class="pt-3 xs:text-sm lg:text-md text-textGray">
+               <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 Never leave your prospects waiting for a revised quote with LineSheets Pro. Edits catalogs on the fly in a few clicks and share them quickly to achieve faster closures and improve brand reputation.
                </p>
            </div>
-        <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
-               <p class="text-titleHeader xs:text-xl lg:text-3xl">
+        <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
                 Catalog Sharing - Simplified
                </p>
-               <p class="pt-3 xs:text-sm lg:text-md text-textGray">
+               <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 LineSheets Pro enables sales reps to share catalogs as PDFs or web pages as soon as they create it without having to visit them on the ground. This helps save time and expedite sales.
                </p>
            </div>
-          <div class="h-screen col-span-2 hidden lg:block">
+          <div class="xs:h-auto lg:h-screen col-span-2 hidden lg:block">
+                                           <div class="h-full grid content-center justify-items-end">
                <img src="./assets/images/grid/share.webp" alt="">
           </div>
-          <div class="h-screen col-span-2 grid content-center hidden lg:block">
+          </div>
+          <div class="xs:h-auto lg:h-screen col-span-2 hidden lg:block">
+                                           <div class="h-full grid content-center justify-items-start">
                <img src="./assets/images/grid/savemore.webp" alt="">
           </div>
-     <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
-               <p class="text-titleHeader xs:text-xl lg:text-3xl">
+          </div>
+     <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
                 Save More, Sell More
                </p>
-               <p class="pt-3 xs:text-sm lg:text-md text-textGray">
+               <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
                 With sales reps creating catalogs on their own, you can save the budget for graphic designers for other things. And by sharing catalogs directly with prospects, it’s possible to close deals faster and boost revenue.
                </p>
            </div>
-        <div class="h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center">
-               <p class="text-titleHeader xs:text-xl lg:text-3xl">
+        <div class="xs:h-auto lg:h-screen xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p class="text-titleHeader xs:text-xl lg:text-5xl font-bold">
                 Easy Integration
                </p>
-               <p class="pt-3 xs:text-sm lg:text-md text-textGray">
-                LineSheets Pro easily integrates with PIM, ERP & eCommerce systems to provide end-to-end visibility of sales.
+               <p class="pt-3 xs:text-sm lg:text-xl text-textGray xs:mt-1 lg:mt-4">
+                LineSheets Pro is tailor-made for any business! Seamlessly integrate the tool with PIM, ERP & eCommerce systems to provide end-to-end visibility of sales and much more!
                </p>
            </div>
-          <div class="h-screen col-span-2 hidden lg:block">
+          <div class="xs:h-auto lg:h-screen col-span-2 hidden lg:block">
+            <div class="h-full grid content-center justify-items-end">
                <img src="./assets/images/grid/integration.png" alt="">
+          </div>
           </div>
         </div>
     </div>
-        <div class="bg-statsBackground xs:py-10 lg:py-20">
+        <div class="bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo xs:py-10 lg:py-20">
            <div class="w-9/12 mx-auto">
                 <div class="grid xs:grid-cols-1 lg:xs:grid-cols-4 gap-2 text-center">
                     <div>
-                        <p class="xs:text-xl lg:text-4xl font-extrabold text-purple">
-                            65000+
+                        <p class="xs:text-xl lg:text-4xl font-extrabold text-white">
+                            150+
                         </p>
-                        <p class="text-md text-textGray">
+                        <p class="text-md text-white">
                             Happy Customers
                         </p>
                     </div>
                     <div class="xs:pt-2">
-                        <p class="xs:text-xl lg:text-4xl font-extrabold text-purple">
-                            65000+
+                        <p class="xs:text-xl lg:text-4xl font-extrabold text-white">
+                            1200+
                         </p>
-                        <p class="text-md text-textGray">
-                            Happy Customers
-                        </p>
-                    </div>
-                    <div class="xs:pt-2">
-                        <p class="xs:text-xl lg:text-4xl font-extrabold text-purple">
-                            65000+
-                        </p>
-                        <p class="text-md text-textGray">
-                            Happy Customers
+                        <p class="text-md text-white">
+                            Sales Reps
                         </p>
                     </div>
                     <div class="xs:pt-2">
-                        <p class="xs:text-xl lg:text-4xl font-extrabold text-purple">
-                            65000+
+                        <p class="xs:text-xl lg:text-4xl font-extrabold text-white">
+                            11,000+
                         </p>
-                        <p class="text-md text-textGray">
-                            Happy Customers
+                        <p class="text-md text-white">
+                            LineSheets Created
+                        </p>
+                    </div>
+                    <div class="xs:pt-2">
+                        <p class="xs:text-xl lg:text-4xl font-extrabold text-white">
+                            $10M+
+                        </p>
+                        <p class="text-md text-white">
+                            Sales Generated
                         </p>
                     </div>                 
                 </div>      
             </div>               
         </div>
         <div class="lg:p-12 xs:p-5">
-            <div class="xs:w-[90%] lg:w-9/12 mx-auto">
+            <!-- <div class="xs:w-[90%] lg:w-9/12 mx-auto">
             <p class="xs:text-xl lg:text-5xl text-header font-extrabold text-center">Catalog Management Redefined</p>
             <p class="lg:pt-6 xs:pt-3 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-textGray text-center">
                 LineSheets Pro features an intuitive UX, powerful design tools, and drag & drop functionalities that reduces the complex process of catalog management into 3 simple steps:
@@ -221,40 +223,45 @@ export default {
             <div class="text-center mt-10 hidden lg:block">
                 <img class="w-6/12 mx-auto shadow-2xl" style="margin-bottom: -195px" src="./assets/images/collection.svg" alt="">
             </div>           
-        </div>      
+        </div>       -->
         </div>
-        <div class="bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo xs:pb-10 lg:pb-24 xs:pt-10 lg:pt-60">
+        <div class="bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo xs:pb-10 lg:pb-24 xs:pt-10 lg:pt-20">
             <div class="w-9/12 mx-auto">
+                        <p class="xs:text-xl lg:text-3xl text-white font-extrabold text-center">Catalog Management Redefined</p>
+                         <p class="lg:pt-3 xs:pt-3 pb-16 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-white text-center">
+                LineSheets Pro features an intuitive UX, powerful design tools, and drag & drop functionalities that reduces the complex process of catalog management into 3 simple steps:
+            </p>
                 <div class="grid grid-cols-3 text-center gap-4">
                     <div class="xs:col-span-3 lg:col-span-1">
                         <span class="text-6xl text-white material-symbols-outlined">
                             widgets
                         </span>
-                        <p class="pt-5 text-white text-2xl">Many Option</p>
+                        <p class="pt-5 text-white text-2xl">Choose</p>
                         <p class="pt-5 text-md text-white">
                             Choose a design template
                         </p>
                     </div>
                     <div class="xs:col-span-3 lg:col-span-1">
                         <span class="text-6xl text-white material-symbols-outlined">
-                            wifi_protected_setup
+                            drag_indicator
                             </span>
-                            <p class="pt-5 text-white text-2xl">Easy Setup</p>
+                            <p class="pt-5 text-white text-2xl">Design</p>
                             <p class="pt-5 text-md text-white">
                                 Drag & drop your products
                             </p>
                     </div>
                     <div class="xs:col-span-3 lg:col-span-1">
                         <span class="text-6xl text-white material-symbols-outlined">
-                            extension
+                            share
                             </span>
-                            <p class="pt-5 text-white text-2xl">Customizable</p>
+                            <p class="pt-5 text-white text-2xl">Share</p>
                             <p class="pt-5 text-md text-white">
                                 Share with prospects
                             </p>
                     </div>
                     <div class="col-span-3">
-                        <button class="bg-white rounded hover:bg-purpleFrom font-bold text-purpleFrom hover:text-white border border-white hover:border-white mt-10 py-3 px-4 mr-3">
+                        <button class="bg-white rounded hover:bg-purpleFrom font-bold text-purpleFrom
+                         hover:text-white border border-white hover:border-white text-xl mt-20 uppercase py-3 px-10 mr-3">
                             Try For Free
                         </button>
                     </div>
@@ -452,7 +459,7 @@ export default {
                 </p>
             </div>
             <div class="col-span-2 grid content-center justify-items-center">
-                     <img class="text-right" src="./assets/images/hooks.svg" alt="">
+                     <img class="text-right" src="./assets/images/analytics.webp" alt="">
             </div>
         </div>
     </div>    
