@@ -17,6 +17,7 @@ module.exports = {
   
       'xl': '1280px',
       // => @media (min-width: 1280px) { ... }
+      '2xl': '1536px'
     }, 
     fontFamily:{
       sans : ['poppins']
@@ -38,7 +39,8 @@ module.exports = {
         purpleBtw: 'rgba(124,69,214,1)',
         purpleTo: 'rgba(158,92,226,1)',
         light: '#a9a9c0',
-        textBackground: '#c0d6e1'
+        textBackground: '#c0d6e1',
+        blacktransperant: 'rgba(0,0,0,0.65)'
         // gradient: 'linear-gradient(90deg, rgba(85,41,198,1) 0%, rgba(124,69,214,1) 35%, rgba(158,92,226,1) 100%);'
       },
       height:{
@@ -51,7 +53,9 @@ module.exports = {
       },
       backgroundImage:{
         'banner': "url('/src/assets/images/banner3.webp')",
-        'bannerdark': "url('/src/assets/images/parr.webp')",
+        'bannerHeader': "url('/src/assets/images/grid/headerbanner.svg')",
+        'signup': "url('/src/assets/images/bg-signup.svg')",
+        'bannerdark': "url('/src/assets/images/background.png')",
         'collection': "url('/src/assets/images/collection.svg')",
         'bannerleft': "url('/src/assets/images/1.png')",
         'bannerright': "url('/src/assets/images/secondright.png')",

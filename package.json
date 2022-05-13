@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "aos": "^2.3.4",
+    "vue": "^3.2.25",
+    "vue-writer": "^1.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
