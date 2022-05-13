@@ -39,7 +39,7 @@ module.exports = {
         purpleBtw: 'rgba(124,69,214,1)',
         purpleTo: 'rgba(158,92,226,1)',
         light: '#a9a9c0',
-        textBackground: '#c0d6e1',
+        textBackground: '#cdaaf0',
         blacktransperant: 'rgba(0,0,0,0.65)'
         // gradient: 'linear-gradient(90deg, rgba(85,41,198,1) 0%, rgba(124,69,214,1) 35%, rgba(158,92,226,1) 100%);'
       },
