@@ -19,18 +19,19 @@ animateValue(obj, 0, 100, 500);
 
 
 import { toRefs, ref, onMounted } from 'vue'
+import hubspotform from '../src/components/HubspotForm.vue'
 import VueWriter from 'vue-writer'
 import AOS from "aos";
 import 'aos/dist/aos.css'
 
 
 export default {
-  components: {VueWriter},
+  components: { VueWriter, hubspotform},
   setup(props) {
-    // turn `props` into an object of refs, then destructure
     const isMenu  = ref(false)
     const isModel  = ref(false)
     const selected = ref(1)
+    const isContact = ref(false)
      onMounted(() => {
       AOS.init();
     });
@@ -39,6 +40,7 @@ export default {
         isMenu,
         selected,
         isModel,
+        isContact,
         showMenu(){
             isMenu.value = !isMenu.value
         },
@@ -58,7 +60,7 @@ export default {
 </script>
 
 <template>
-    <div class="h-screen font-sans">
+    <div class="h-screen font-sans" :class="isModel || isContact ? 'overflow-hidden' : ''">
     <nav class="flex items-center justify-between flex-wrap bg-white px-6 py-4">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
 <svg width="196" class="hidden lg:block" height="45" viewBox="0 0 1541 267" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -106,22 +108,22 @@ export default {
         class="block text-center mt-4 lg:inline-block lg:mt-0 text-textGray hover:text-purple mr-4">
         Plan
       </button>
-       <button href="" @click="scrollToDiv('featuresDiv')"
-        class="block text-center mt-4 lg:inline-block lg:mt-0 text-textGray hover:text-purple mr-4">
-        Templates
+        <button class="block mt-4 lg:inline-block lg:mt-0 font-weight text-textGray hover:text-purple mr-4"
+        @click="isContact = true">
+        Contact Us
       </button>
         <button class="block mt-4 lg:inline-block lg:mt-0 font-weight text-textGray hover:text-purple"
         @click="showModel">
         Signup
-      </button>
+      </button>    
     </div>
   </div>
 </nav>
     <div class="bg-gray lg:h-[35%] xs:h-auto xs:px-[20px] xs:py-[30px] lg:py-[40px]">
         <div class="text-center mx-auto justify-center grid content-center">
           <h1 class="xl:text-2xl md:text-2xl mt-7 font-light text-textGray">
-            Never Struggle with
-            <span class="text-purple font-bold italic">LineSheets</span> 
+            Never Struggle With
+            <span class="text-purple font-bold">LineSheets</span> 
             <!-- <vue-writer class="text-purple font-bold inline-block" :array="['LineSheets', 'Catalogs']" /> -->
             Again
           </h1>
@@ -130,13 +132,15 @@ export default {
                <vue-writer :array="['Design..', 'Share..', 'Sell..']" />
                <!-- <vue-writer :array="['Design.. Share.. Sell']" /> -->
             </div>            
-            <p class="text-sm text-textGray xs:pt-2 lg:pt-5">Beautiful LineSheets in a Few Clicks!</p>
+            <h2 class="text-sm text-textGray xs:pt-2 lg:pt-5">Beautiful LineSheets in a Few Clicks!</h2>
             <div class="pt-8 text-md sm:w-auto lg:w-[600px] sm:px-4 lg:px-0 mx-auto text-textGray">
                <strong> LineSheets Pro  </strong> is an easy-to-use automatic catalog maker for sales reps to create catalogs on the fly, without depending on a designer.
            </div>
-             <button class="bg-purpleFrom rounded tracking-wide	 text-white text-md xs:text-xs lg:text-lg mt-8 py-2 px-8 mr-3">
+             <!-- <button class="bg-purpleFrom rounded tracking-wide	 text-white text-md xs:text-xs lg:text-lg mt-8 py-2 px-8 mr-3">
                     Try For Free
-                </button>
+                </button> -->
+             <button class="px-5 py-3 ml-2 mt-6 h-[50px] text-white w-[15%] absolute left-[40%]
+                   bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo inline-block rounded-3xl">Try For Free</button>
           </div>
         </div>
     </div>
@@ -144,12 +148,12 @@ export default {
     <div class="p-3 bg-gray h-[63%] bg-banner hidden lg:block align-bottom bg-contain bg-no-repeat subpixel-antialiased"></div>
     <div class="xs:w-[90%] lg:w-9/12 2xl:w-7/12 mx-auto">
         <div class="xs:my-[3rem] lg:my-[3rem] xs:w-full lg:w-1/2 mx-auto text-center">
-            <p class="xs:text-xl lg:text-4xl font-black text-header"
+            <h3 class="xs:text-xl lg:text-6xl font-black text-header"
             data-aos="fade-right" data-aos-duration="800"
             >
                 Just 
                 <span class="text-purple"> Drag & Drop! </span>
-            </p>
+            </h3>
             <p class="text-textGray xs:text-sm mt-[1rem]"
             data-aos="fade-left" data-aos-duration="800"
             >
@@ -157,27 +161,11 @@ export default {
             </p>
         </div>
         <div class="grid grid-cols-3">
-            <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] col-span-2 hidden lg:block text-center">
-                             <div class="h-full grid content-center justify-items-start">
-               <img data-aos="fade-right" class="h-[500px]" src="./assets/images/grid/ordermanagement.png"  alt="">
-                             </div>
-          </div>
-          <div
-          data-aos="fade-down" 
-          class=" xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p class="text-titleHeader xs:text-xl lg:text-3xl lg:leading-snug font-bold">
-                In-built Order
-                <span class="bg-gradient-to-r from-white to-textBackground"> Management</span>
-               </p>
-               <p class="pt-3 xs:text-sm lg:text-base  text-textGray xs:mt-1 lg:mt-4">
-                By sharing catalogs as unique web pages, sales reps can get prospects to order directly from the catalog page without visiting the eCommerce portal, thus fast-tracking closures.
-               </p>
-           </div>
-           <div data-aos="fade-down"
+            <div data-aos="fade-down"
             class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p class="text-titleHeader xs:text-xl lg:text-3xl lg:leading-snug font-bold">
+               <h4 class="text-titleHeader xs:text-xl lg:text-5xl lg:leading-snug font-bold">
                 A <span class="bg-gradient-to-r from-textBackground to-white"> No-Design</span> Tool
-               </p>
+               </h4>
                <p class="pt-3 xs:text-sm lg:text-base  text-textGray xs:mt-1 lg:mt-4">
                 Skip the High Fees of Designers & the Long Wait to Get High-Quality Catalogs - Because LineSheets Pro gives you both! Transform sales by making linesheets with lightning speed, on the fly!
                </p>
@@ -187,15 +175,13 @@ export default {
                <img data-aos="fade-left" src="./assets/images/grid/nodesigner.png" class="align-middle" alt="">
                </div>
            </div>
-           
-         
-          <div data-aos="fade-right" data-aos-duration="800" class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] col-span-2 hidden lg:block">
+                    <div data-aos="fade-right" data-aos-duration="800" class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] col-span-2 hidden lg:block">
                              <div class="h-full grid content-center justify-items-start">
-               <img src="./assets/images/fast.png" alt="">
+               <img src="./assets/images/grid/newfast.png" alt="">
                </div>
           </div>
        <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p data-aos="fade-down" data-aos-duration="800" class="text-titleHeader xs:text-xl lg:text-3xl lg:leading-snug font-bold">
+               <p data-aos="fade-down" data-aos-duration="800" class="text-titleHeader xs:text-xl lg:text-5xl lg:leading-snug font-bold">
                <span class="bg-gradient-to-r from-textBackground to-white">
                    Faster
                    </span>
@@ -205,8 +191,8 @@ export default {
                 Never leave your prospects waiting for a revised quote with LineSheets Pro. Edits catalogs on the fly in a few clicks and share them quickly to achieve faster closures and improve brand reputation.
                </p>
            </div>
-        <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p data-aos="fade-down" data-aos-duration="800" class="text-titleHeader xs:text-xl lg:text-3xl lg:leading-snug font-bold">
+            <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p data-aos="fade-down" data-aos-duration="800" class="text-titleHeader xs:text-xl lg:text-5xl lg:leading-snug font-bold">
                 Catalog Sharing - 
                 <span class="bg-gradient-to-r from-white to-textBackground">
                     Simplified
@@ -221,13 +207,27 @@ export default {
                <img src="./assets/images/grid/share.png" alt="">
           </div>
           </div>
-          <div data-aos="fade-right" data-aos-duration="800" class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] col-span-2 hidden lg:block">
-                                           <div class="h-full grid content-center justify-items-start">
-               <img class="h-[500px]" src="./assets/images/grid/save.png" alt="">
+            <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] col-span-2 hidden lg:block text-center">
+                             <div class="h-full grid content-center justify-items-start">
+               <img data-aos="fade-right" class="h-[500px]" src="./assets/images/grid/ordermanagement.png"  alt="">
+                             </div>
           </div>
-          </div>
-     <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
-               <p data-aos="fade-down" data-aos-duration="800" class="text-titleHeader xs:text-xl lg:text-3xl lg:leading-snug font-bold">
+          <div
+          data-aos="fade-down" 
+          class=" xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p class="text-titleHeader xs:text-xl lg:text-5xl lg:leading-snug font-bold">
+                In-built Order
+                <span class="bg-gradient-to-r from-white to-textBackground"> Management</span>
+               </p>
+               <p class="pt-3 xs:text-sm lg:text-base  text-textGray xs:mt-1 lg:mt-4">
+                By sharing catalogs as unique web pages, sales reps can get prospects to order directly from the catalog page without visiting the eCommerce portal, thus fast-tracking closures.
+               </p>
+           </div>           
+           
+         
+ 
+        <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
+               <p data-aos="fade-down" data-aos-duration="800" class="text-titleHeader xs:text-xl lg:text-5xl lg:leading-snug font-bold">
                 Save
                 <span class="bg-gradient-to-r from-white to-textBackground">
                     More
@@ -238,9 +238,19 @@ export default {
                 With sales reps creating catalogs on their own, you can save the budget for graphic designers for other things. And by sharing catalogs directly with prospects, it’s possible to close deals faster and boost revenue.
                </p>
            </div>
+          <div data-aos="fade-right" data-aos-duration="800" class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] col-span-2 hidden lg:block">
+                                           <div class="h-full grid content-center justify-items-end">
+               <img class="h-[500px]" src="./assets/images/grid/save.png" alt="">
+          </div>
+          </div>
+              <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] col-span-2 hidden lg:block">
+            <div class="h-full grid content-center justify-items-start">
+               <img data-aos="fade-left" data-aos-duration="800" src="./assets/images/grid/integration.png" alt="">
+          </div>
+          </div>
         <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] xs:col-span-3 lg:col-span-1 grid xs:content-start lg:content-center p-3 xs:text-center lg:text-left">
                <p data-aos="fade-down" data-aos-duration="800" 
-               class="text-titleHeader xs:text-xl lg:text-3xl lg:leading-snug font-bold">
+               class="text-titleHeader xs:text-xl lg:text-5xl lg:leading-snug font-bold">
                 <span class="bg-gradient-to-r from-textBackground to-white">
                     Easy
                 </span> Integration
@@ -250,11 +260,6 @@ export default {
                 LineSheets Pro is tailor-made for any business! Seamlessly integrate the tool with PIM, ERP & eCommerce systems to provide end-to-end visibility of sales and much more!
                </p>
            </div>
-          <div class="xs:h-auto lg:h-[100vh] 2xl:h-[65vh] col-span-2 hidden lg:block">
-            <div class="h-full grid content-center justify-items-end">
-               <img data-aos="fade-left" data-aos-duration="800" src="./assets/images/grid/integration.png" alt="">
-          </div>
-          </div>
         </div>
     </div>
         <div class="bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo xs:py-10 lg:py-20">
@@ -430,57 +435,53 @@ export default {
         >Costs Less than your Quarterly Coffee Subscription</p>
         <p 
         data-aos="fade-right" data-aos-duration="800"
-        class="xs:pb-8 lg:pb-16 pt-2 pb-8 xs:text-sm lg:text-md xs:w-[90%] lg:w-6/12 mx-auto text-textGray text-center">
+        class="xs:pb-8 lg:pb-16 pt-2 pb-8 xs:text-sm lg:text-md xs:w-[90%] md:[90%] lg:w-9/12 mx-auto text-textGray text-center">
                         LineSheets Pro is super affordable with unique pricing packages to meet diverse business needs. Check them out below or simply ask for a
                          <a href="#" class="text-purple hover:underline-offset-1"> Custom Quote</a>
                      </p>
-        <div class="xs:w-[90%] lg:w-9/12 mx-auto grid xs:grid-cols-1 lg:grid-cols-4 gap-2 content-center justify-center justify-items-center pt-10">
-          <div class="h-[28rem] w-[15rem] xs:w-[90%] 
-          bg-purpleFrom
-           xs:mt-5 rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7" style="margin-top: -20px">
-                <p class="text-md text-white">Free</p>
+        <div class="xs:w-[90%] lg:w-5/6 mx-auto grid xs:grid-cols-1 lg:grid-cols-4 gap-2 content-center justify-center justify-items-center pt-10">
+               <div class="h-[28rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
+                <p class="text-md text-textGray">Free</p>
                 <p class="pt-3">
-                    <span class="text-4xl text-white font-bold">
+                    <span class="text-4xl text-header font-bold">
                         $0
                     </span>
-                    <span class="text-sm text-white font-light">/Month</span>
+                    <span class="text-sm text-light">/Month</span>
                 </p>
-                <p class="text-white text-md pt-5">
-                        Want to Start the Business
+                <p class="text-textGray text-md pt-5">
+                    Want to Start the Business
                 </p>
-                <p class="text-white text-sm pt-5">
-                    <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
+                <p class="text-textGray text-sm pt-5">
+                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             person
                             </span>
                   1 User
                 </p>
-                <p class="text-white text-sm pt-4">
-                     <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
+                <p class="text-textGray text-sm pt-4">
+                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             notes
                             </span>
                   10 SKU's
                 </p>
-                <p class="text-white text-sm pt-4">
-                    <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
+                <p class="text-textGray text-sm pt-4">
+                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             draw
                             </span>
                   5 Templates
                 </p>
-                <p class="text-white text-sm pt-4">
-                    <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
+                <p class="text-textGray text-sm pt-4">
+                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
                             brush
                             </span>
                   2 LineSheets
                 </p>
                 <div class="text-left">                
-                    <button class="bg-white hover:bg-purple font-bold text-purple 
-                    hover:text-white border w-full border-white hover:border-white py-2 px-3 my-4"
-                    @click="showModel"
-                    >
-                        Try For Free
-                    </button>
+                    <button
+                     @click="showModel"
+                      class="px-5 py-2 ml-2 mt-5 w-full text-white 
+                   bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo inline-block rounded-3xl">Get Started</button>
                 </div>
-            </div>      
+            </div>
              <div class="h-[28rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
                 <p class="text-md text-textGray">Basic</p>
                 <p class="pt-3">
@@ -517,54 +518,63 @@ export default {
                   Unlimited LineSheets
                 </p>
                 <div class="text-left">                
-                    <button class="bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo w-full hover:bg-white font-bold text-white hover:text-purple border border-purple hover:border-purple py-2 px-3 my-4"
+                    <!-- <button class="bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo w-full hover:bg-white font-bold text-white hover:text-purple border border-purple hover:border-purple py-2 px-3 my-4"
                     @click="showModel">
                                 Get Started
-                    </button>
+                    </button> -->
+                     <button
+                     @click="showModel"
+                      class="px-5 py-2 ml-2 mt-5 w-full text-white 
+                   bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo inline-block rounded-3xl">Get Started</button>
                 </div>
             </div>
-             <div class="h-[28rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
-                <p class="text-md text-textGray">Pro</p>
+             <div class="h-[28rem] lg:w-60 xs:w-[90%] 
+          bg-purpleFrom
+           xs:mt-5 rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7" style="margin-top: -20px">
+                <p class="text-md text-white">Pro</p>
                 <p class="pt-3">
-                    <span class="text-4xl text-header font-bold">
+                    <span class="text-4xl text-white font-bold">
                         $89
                     </span>
-                    <span class="text-sm text-light">/Month</span>
+                    <span class="text-sm text-white font-light">/Month</span>
                 </p>
-                <p class="text-textGray text-md pt-5">
-                    Ideal for expanding businesses
+                <p class="text-white text-md pt-5">
+                        Ideal for expanding businesses
                 </p>
-                <p class="text-textGray text-sm pt-5">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
+                <p class="text-white text-sm pt-5">
+                    <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
                             person
                             </span>
                   5 Users
                 </p>
-                <p class="text-textGray text-sm pt-4">
-                     <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
+                <p class="text-white text-sm pt-4">
+                     <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
                             notes
                             </span>
                   10,000 SKU's
                 </p>
-                <p class="text-textGray text-sm pt-4">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
+                <p class="text-white text-sm pt-4">
+                    <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
                             draw
                             </span>
                   Custom Templates
                 </p>
-                <p class="text-textGray text-sm pt-4">
-                    <span class="text-xl text-purple align-middle material-symbols-outlined mr-2">
+                <p class="text-white text-sm pt-4">
+                    <span class="text-xl text-white align-middle material-symbols-outlined mr-2">
                             brush
                             </span>
                   Unlimited LineSheets
                 </p>
-                <div class="text-left">                
-                    <button class="bg-purple w-full hover:bg-white font-bold text-white hover:text-purple border border-purple hover:border-purple py-2 px-3 my-4"
-                                        @click="showModel">
-                                Get Started
+                <div class="text-left">                    
+                    <button class="bg-white font-bold text-purple 
+                     border border-purpleFrom rounded-3xl px-5 py-2 ml-2 mt-5 w-full"
+                    @click="showModel"
+                    >
+                        Get Started
                     </button>
                 </div>
-            </div>
+            </div> 
+            
             <div id="priceDiv" class="h-[28rem] lg:w-60 xs:w-[90%] rounded-lg shadow-custom lg:ml-0 xs:mx-10 p-7">
                 <p class="text-md text-textGray">Business</p>
                 <p class="pt-3">
@@ -601,10 +611,10 @@ export default {
                   Unlimited LineSheets
                 </p>
                 <div class="text-left">                
-                    <button class="bg-purple w-full hover:bg-white font-bold text-white hover:text-purple border border-purple hover:border-purple py-2 px-3 my-4"
-                    @click="showModel">
-                                Get Started
-                    </button>
+                   <button
+                     @click="showModel"
+                      class="px-5 py-2 ml-2 mt-5 w-full text-white 
+                   bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo inline-block rounded-3xl">Get Started</button>
                 </div>
             </div>
            </div>
@@ -711,7 +721,7 @@ export default {
                      <img class="footerImg" src="./assets/images/grid/ls.png" alt="">
                 </div>
                 <div class="col-span-4 grid content-center">
-                    <p class="text-header text-3xl font-bold">Never Struggle with Catalogs Again</p>
+                    <p class="text-header text-3xl font-bold">Never Struggle With Catalogs Again</p>
                     <p class="pt-3 text-xs">Create. Share. Sell. All on the fly. Without any designers.</p>
                 </div>
                 <div class="col-span-1 grid content-center">
@@ -723,40 +733,89 @@ export default {
                 </div>
           </div>
     </div>
-    <div class="bg-footerDiv h-[40vh]">
-
+    <div class="bg-footerDiv h-[45vh]">
+      <div class="lg:py-6 xs:py-3 text-white">
+        <div class="w-[90%] mx-auto text-center grid grid-cols-2 content-start absolute bottom-5 left-[5%]">
+            <div class="">
+                 <p><img class="w-48" src="./assets/images/grid/sc-white.svg" alt=""></p>
+                 <p class="font-extrabold text-white text-sm text-left mt-3">
+                     © 2022 LineSheets Pro | 
+                    <a href="#"> Privacy Policy  </a> | 
+                    <a href="#"> Terms </a>
+                 </p>                 
+            </div>
+            <div class="grid content-center text-right">
+            <p>
+                <a href="" class="inline-block mr-5 cursor-pointer align-middle">
+                     <img src="https://az777500.vo.msecnd.net/images/3554/twitter3.png" alt="Twitter">
+                </a>  
+                <a href="" class="inline-block mr-5 cursor-pointer align-middle">
+                     <img src="https://az777500.vo.msecnd.net/images/3554/linkedin2.png" alt="LinkedIn">
+                </a> 
+                <a href="" class="inline-block mr-5 cursor-pointer align-middle">
+                     <img src="https://az777500.vo.msecnd.net/images/3554/facebook-logo.png" alt="Facebook">
+                </a> 
+                <a href="" class="inline-block mr-5 cursor-pointer align-middle">
+                     <img src="https://az777500.vo.msecnd.net/images/3554/youtube-last-2.png" alt="Youtube">
+                </a>                              
+            </p>
+            </div>
+        </div>
+    </div>
     </div>
     </div>
 </div>
 
-<div class="h-screen w-full bg-blacktransperant absolute top-0 bg-signupDiv"
-:class="isModel ? 'visible' : 'hidden'"
->
-<p class="absolute top-3 right-3 cursor-pointer" @click="isModel = false">
-    <span class="text-white text-6xl material-symbols-outlined">
-cancel
-</span>
-</p>
-    <div class="h-screen grid grid-cols-3">
-          <div class="col-span-1 h-full grid content-center px-5">
-              <p class="text-white text-5xl font-extrabold">
-                  Sign up for FREE
-              </p>
-              <p class="text-white text-xl font-bold pt-2">
-                  and start using ClickUp in seconds!
-              </p>
-          </div>
-          <div class="col-span-2 h-full grid  content-center px-5">
-              <div class="col-span-2 flex flex-auto relative">
-                  <input type="text" class="px-5 py-10 w-[50%] rounded-3xl h-[50px] bg-white inline-block" placeholder="Enter your email">
-                  <button class="px-5 py-5 ml-2 h-[80px] text-white w-[15%] absolute left-[40%]
-                   bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo inline-block rounded-3xl">Register</button>
+<div class="h-screen w-full bg-blacktransperant absolute top-0 bg-signupDiv" :class="isModel ? 'visible overflow-hidden' : 'hidden'"
+        >
+        <p class="absolute top-3 right-3 cursor-pointer z-10" @click="isModel = false">
+            <span class="text-white text-6xl material-symbols-outlined">
+                cancel
+            </span>
+        </p>
+        <div class="h-screen grid grid-cols-3 ">
+            <div class="col-span-1 h-full grid content-center px-5 animate__animated animate__bounceInLeft">
+                <p class="text-white text-5xl font-extrabold">
+                    Sign up for FREE
+                </p>
+                <p class="text-white text-xl font-bold pt-2">
+                    Start using LineSheets Pro in seconds!
+                </p>
+            </div>
+            <div class="col-span-2 h-full grid  content-center px-5 animate__animated animate__bounceInRight">
+                <!-- <div class="grid grid-cols-3">
+              <div class="col-span-2">
+                  <input type="text" class="px-5 py-10 w-[70%] rounded-3xl h-[50px] bg-white inline-block" placeholder="Enter your email">
               </div>              
               <div>
+                   <button class="px-5 py-3 h-[50px] bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo inline-block rounded-3xl">SignUp</button>
               </div>              
-          </div>
+              </div> -->
+                <div class="col-span-2 flex flex-auto relative bg-transparent">
+                    <input type="text" class="px-5 py-10 w-[50%] rounded-3xl h-[50px] bg-white inline-block"
+                        placeholder="Enter your email">
+                    <button
+                        class="px-5 py-4 ml-2 mt-3 text-white w-[15%] absolute left-[33%]
+                   bg-gradient-to-r from-purpleFrom via-purpleFrom to-purpleTo inline-block rounded-3xl">Register</button>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+
+    <div class="h-screen w-full bg-blacktransperant absolute top-0"
+        :class="isContact ? 'visible overflow-hidden' : 'hidden'">
+         <p class="absolute top-3 right-3 cursor-pointer z-10" @click="isContact = false">
+            <span class="text-white text-6xl material-symbols-outlined">
+                cancel
+            </span>
+        </p>
+        <div class="w-[50%] mx-auto bg-white mt-5 p-10">
+             <hubspotform></hubspotform>
+        </div>
+        
+    </div>
 </template>
 
 <style>
@@ -766,9 +825,10 @@ cancel
     height: 67px;
 }
 .material-symbols-outlined:hover{
-    -webkit-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
-    transform: rotate(150deg);
+    transition: 0.9s;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 .bg-signupDiv{
     background: url(/src/assets/images/bg-signup.svg) no-repeat 0 50%/890px;

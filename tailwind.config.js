@@ -52,7 +52,7 @@ module.exports = {
         'custom' : '0 4px 12px #5a68c24d',
       },
       backgroundImage:{
-        'banner': "url('/src/assets/images/banner3.webp')",
+        'banner': "url('/src/assets/images/grid/bannernew.png')",
         'bannerHeader': "url('/src/assets/images/grid/headerbanner.svg')",
         'signup': "url('/src/assets/images/bg-signup.svg')",
         'bannerdark': "url('/src/assets/images/background.png')",
