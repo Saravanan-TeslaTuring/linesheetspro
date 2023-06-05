@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "vue": "^3.2.25",
+    "vue": "^3.3.2",
     "vue-writer": "^1.2.0"
   },
   "devDependencies": {
